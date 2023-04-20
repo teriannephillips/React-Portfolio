@@ -1,0 +1,28 @@
+header {
+  background: #f9b713;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  align-items: flex-end;
+}
+.sectionName {
+  width: 60%;
+  align-items:flex-end;
+  display:flex;
+  flex-direction: row;
+}
+.sectionNav {
+  width: 40%;
+}
+.profileImage {
+  height: 172px;
+  margin:2%;
+}
+.header h1 {
+  margin: 2%;
+  padding-top: 75px;
+  text-align: left;
+  color: white;
+  font-size: 3rem;
+}

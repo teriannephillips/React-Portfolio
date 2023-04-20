@@ -1,0 +1,13 @@
+.nav {
+  background: purple;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h2 {
+  margin: 2%;
+  text-align: right;
+  color: white;
+  font-size: 20px;
+}
