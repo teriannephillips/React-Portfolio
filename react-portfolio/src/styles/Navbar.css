@@ -1,8 +1,8 @@
 .nav {
-  background: purple;
+  background: #0B4F6C;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+ 
 }
 
 .navButton {
@@ -11,13 +11,50 @@
   text-align: right;
   font-size: 20px;
   border-radius: 10px;
-  border-color: rgb(30, 2, 83);
+  border-color: #040F16;
   border-style: solid;
-  color: white;
-  background-color: rgb(30, 2, 83);
+  color: #FBFBFF;
+  background-color: #B80C09;
 }
 
 button:hover {
-  background-color: white;
-  color:rgb(30, 2, 83);
+  background-color: #FBFBFF;
+  color:#B80C09;
+}
+
+@media screen and (max-width: 1200px) {
+  header {
+    flex-direction: column;
+  }
+  .sectionName, .sectionNav {
+    width:100%;
+    justify-content: space-between;
+  }
+  button {
+    width:min-content;
+  }
+  .nav {
+    justify-content:space-between;
+  }
+}
+@media screen and (max-width: 575px) {
+  .sectionName{
+    flex-direction: row;
+  }
+  .sectionName, .sectionNav {
+    width:100%;
+    
+  }
+  button {
+    width:min-content;
+  }
+  .navButton {
+    font-size: 12px;
+  }
+  .header h1 {
+    font-size:2rem;
+  }
+  header {
+    align-items: center;
+  }
 }

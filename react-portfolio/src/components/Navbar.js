@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Navbar.css';
-// In Navbar, we can assign a style from an object by using curly braces
+
 function Navbar() {
   return (
     <div>

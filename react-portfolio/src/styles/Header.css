@@ -1,5 +1,5 @@
 header {
-  background: purple;
+  background: #0B4F6C;
   height: 200px;
   display: flex;
   flex-direction: row;
@@ -7,13 +7,13 @@ header {
   align-items: flex-end;
 }
 .sectionName {
-  width: 60%;
+  width: 50%;
   display:flex;
   align-items: center;
   flex-direction: row;
 }
 .sectionNav {
-  width: 40%;
+  width: 50%;
 }
 .profileImage {
   height: 200px;
@@ -21,6 +21,6 @@ header {
 .header h1 {
   margin: 2%;
   text-align: left;
-  color: white;
+  color: #FBFBFF;
   font-size: 3rem;
 }
