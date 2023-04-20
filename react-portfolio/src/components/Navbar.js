@@ -5,10 +5,10 @@ function Navbar() {
   return (
     <div>
       <section className = "nav">
-     <h2>ABOUT</h2>
-    <h2>PORTFOLIO</h2>
-    <h2>CONTACT</h2>
-    <h2>RESUME</h2>
+     <button className ='navButton'>ABOUT</button>
+     <button className ='navButton'>PORTFOLIO</button>
+     <button className ='navButton'>CONTACT</button>
+     <button className ='navButton'>RESUME</button>
      </section>
     </div>
   );

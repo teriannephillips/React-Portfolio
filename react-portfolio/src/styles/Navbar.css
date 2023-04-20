@@ -5,9 +5,19 @@
   justify-content: space-between;
 }
 
-h2 {
+.navButton {
   margin: 2%;
+  padding:1%;
   text-align: right;
-  color: white;
   font-size: 20px;
+  border-radius: 10px;
+  border-color: rgb(30, 2, 83);
+  border-style: solid;
+  color: white;
+  background-color: rgb(30, 2, 83);
+}
+
+button:hover {
+  background-color: white;
+  color:rgb(30, 2, 83);
 }
