@@ -1,0 +1,60 @@
+body {
+  background-color: #0b4f6c;
+  color: #fbfbff;
+}
+
+h2 {
+  background-color: #b80c09;
+  margin: 0;
+}
+
+.main p {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2%;
+}
+
+.btnLink {
+  text-decoration: none;
+  color: white;
+}
+.btnLink:hover {
+  color: #b80c09;
+}
+
+li {
+  font-size: 20pt;
+  margin: 2%;
+}
+
+.contactMain {
+  display: flex;
+}
+.contactForm, .contactInfo {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+.label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .entryField {
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  button {
+    margin: 2%;
+    padding:1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: #040F16;
+    border-style: solid;
+    color: #FBFBFF;
+    background-color: #B80C09;
+  }

@@ -1,14 +1,21 @@
 import React from 'react';
 import Header from './components/Header';
 import Main from './components/Main';
+import Contact from './components/Contact';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-// In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
+
 function App() {
   return (
+    <Router>
     <div>
       <Header/>
-      <Main />
     </div>
+    <Routes>
+        <Route path="/" element={<Main/>} />
+        <Route path="/contact" element={<Contact/>} />
+        </Routes>
+    </Router>
   );
 }
 
